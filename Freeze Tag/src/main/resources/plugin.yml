@@ -1,0 +1,27 @@
+name: Sample
+version: ${project.version}
+main: doragoso.sample.Main
+api-version: 1.16
+authors: [ doragonn777 ]
+description: sample nyan
+commands:
+
+  sethp:
+    description: set your maxhealth
+    usage: ./sethp <maxhealth>
+
+  push:
+    description: push player
+    usage: ./push x y z
+
+  speed:
+    description: set player's walk speed
+    usage: ./speed <speed>
+
+  saturation:
+    description: set player's saturation level
+    usage: ./saturation <speed>
+
+  ft:
+    description: about freeze tag
+    usage: ./ft start  ./ft oni <number>
